@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BookServiceImpl implements BookService{
 
-    //service调用dao层：组合dao
+    //service调用dao层：组合dao。
     private BookMapper bookMapper;
 
     public void setBookMapper(BookMapper bookMapper){
